@@ -21,6 +21,7 @@ class Bullet{
         int create_frame_bullet; //initialize when it creates
         int check_frame_bullet;
         int level=1;
+        bool power = false;
         char get_symbol(){
             int which_symbol = this->level;
             if(which_symbol == 1){
