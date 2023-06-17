@@ -5,8 +5,7 @@
 class item : public unit
 {
     public:
-    item(int y_, int x_, int frame_, char content_):unit(y_, x_, frame_, content_){}
-    
+    item(int y_value, int x_value, int frame_value, char content_value):unit(y_value, x_value, frame_value, content_value){}
     private:
 
 };
